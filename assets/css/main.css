@@ -28,6 +28,38 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+/* ------------------------------  התוספות שלי לcss*/
+
+div.sign {
+    position: absolute;
+    top: 10px;
+}
+
+.data {
+    display: none;
+    position: absolute;
+    top: 10px;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+p #name {
+    display: inline-block;
+    margin: 30px;
+}
+p #email {
+    display: inline-block;
+    margin: 30px;
+}
+img {
+    border-radius: 50%;
+}
+button #sign_out {
+    display: inline-block;
+    margin: 30px;
+}
+/*--------*/
 body {
 	line-height: 1;
 }
